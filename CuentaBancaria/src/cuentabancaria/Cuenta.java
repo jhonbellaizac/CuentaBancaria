@@ -16,7 +16,6 @@ public void imprimir (){
     System.out.println("Numero de consignacion: " + numConsignacion);
     System.out.println("Numero de retiro: " + numRetiro);
     System.out.println("Tasa anual: " + tasaAnual);
-    System.out.println("Comision mensul: " + comisionMensual);
     
 }
     
