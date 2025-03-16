@@ -16,12 +16,22 @@ public void imprimir (){
     System.out.println("Numero de consignacion: " + numConsignacion);
     System.out.println("Numero de retiro: " + numRetiro);
     System.out.println("Tasa anual: " + tasaAnual);
-    
+    System.out.println("Comision mensual:" + comisionMensual);
 }
     
 
-
+public void consignar (float cantidad){
+    saldo = saldo + cantidad;
+}
     
+
+public void retirar (float cantidad){
+    float nuevoSaldoTemporal = saldo-cantidad;
+    
+    if (nuevoSaldoTemporal >= 0) {
+        saldo = saldo-cantidad;
+    }
+}
 
 
 
