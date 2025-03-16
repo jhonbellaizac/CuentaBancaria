@@ -30,8 +30,11 @@ public void retirar (float cantidad){
     
     if (nuevoSaldoTemporal >= 0) {
         saldo = saldo-cantidad;
+    }else {
+        System.out.println("La cantidad a retirar excede a la cantidad actual");
     }
 }
+
 
 
 
