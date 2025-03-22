@@ -1,6 +1,5 @@
 package cuentabancaria;
 
-import static com.oracle.jrockit.jfr.FlightRecorder.isActive;
 
 public class CuentaAhorros extends Cuenta {
     
